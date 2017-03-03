@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYHOneView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="曾勇华Abc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3UU-sY-nZ8">
+                    <rect key="frame" x="0.0" y="203" width="375" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="2h1-7U-Eyj" userLabel="blue">
+                    <rect key="frame" x="0.0" y="234" width="375" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="12" minValue="12" maxValue="18" id="5yy-T8-8eO">
+                            <rect key="frame" x="8" y="162" width="359" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <connections>
+                                <action selector="valueChange:" destination="iN0-l3-epB" eventType="valueChanged" id="79a-Ou-JWR"/>
+                            </connections>
+                        </slider>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cGk-7W-E3r">
+                            <rect key="frame" x="89" y="87" width="45" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" image="正文字号-中（默认）"/>
+                            <state key="selected" image="正文字号-中"/>
+                            <state key="highlighted" image="正文字号-中"/>
+                            <connections>
+                                <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="MvS-wn-Dle"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="B5i-My-gZI">
+                            <rect key="frame" x="194" y="87" width="45" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" image="正文字号-大（默认）"/>
+                            <state key="selected" image="正文字号-大"/>
+                            <state key="highlighted" image="正文字号-大"/>
+                            <connections>
+                                <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Pvw-Uw-2nh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fSF-4H-dN8" userLabel="超大">
+                            <rect key="frame" x="320" y="111" width="45" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" image="正文字号-大+（默认）"/>
+                            <state key="selected" image="正文字号-大+"/>
+                            <state key="highlighted" image="正文字号-大+"/>
+                            <connections>
+                                <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="lY7-zq-EKr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QgD-dr-Juh" userLabel="小">
+                            <rect key="frame" x="19" y="111" width="45" height="39"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" image="正文字号-小（默认）"/>
+                            <state key="selected" image="正文字号-小"/>
+                            <state key="highlighted" image="正文字号-小"/>
+                            <connections>
+                                <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="bdV-91-xw1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="blueView" destination="2h1-7U-Eyj" id="r7D-9r-rcM"/>
+                <outlet property="sliderView" destination="5yy-T8-8eO" id="JdD-gQ-Ndd"/>
+                <outlet property="titleView" destination="3UU-sY-nZ8" id="G8S-7C-CS9"/>
+                <outletCollection property="buttons" destination="QgD-dr-Juh" id="3zX-n9-2nX"/>
+                <outletCollection property="buttons" destination="cGk-7W-E3r" id="W9L-V6-aE7"/>
+                <outletCollection property="buttons" destination="B5i-My-gZI" id="QDy-ra-M0O"/>
+                <outletCollection property="buttons" destination="fSF-4H-dN8" id="xuo-Uu-C78"/>
+            </connections>
+            <point key="canvasLocation" x="364.5" y="378.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="正文字号-中" width="80" height="68"/>
+        <image name="正文字号-中（默认）" width="80" height="68"/>
+        <image name="正文字号-大" width="80" height="68"/>
+        <image name="正文字号-大+" width="80" height="68"/>
+        <image name="正文字号-大+（默认）" width="80" height="68"/>
+        <image name="正文字号-大（默认）" width="80" height="68"/>
+        <image name="正文字号-小" width="80" height="68"/>
+        <image name="正文字号-小（默认）" width="80" height="68"/>
+    </resources>
+</document>

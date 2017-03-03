@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7s8-hs-mmI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezP-yF-hQa">
+                                        <rect key="frame" x="23" y="10" width="145" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_hotpeople"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0D-8b-N0H">
+                                        <rect key="frame" x="194" y="10" width="145" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_hotsound"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzx-SE-C8Q">
+                                        <rect key="frame" x="23" y="196" width="145" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_newpeople"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zba-2b-T3v">
+                                        <rect key="frame" x="194" y="196" width="145" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_newsound"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIl-LD-wNW">
+                                        <rect key="frame" x="29" y="391" width="163" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_wallspoint"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYa-vt-HJO">
+                                        <rect key="frame" x="200" y="391" width="145" height="145"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_ad"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-lM-y2h">
+                                        <rect key="frame" x="37" y="620" width="300" height="75"/>
+                                        <animations/>
+                                        <state key="normal" image="finditem_iwannabehere"/>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.83137254901960778" green="0.83137254901960778" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                            <navigationBar alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSd-Pm-ISs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="喜马拉雅" id="EaV-zg-Qp5"/>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOC-dO-DKa">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="c8F-WR-Gcn" userLabel="我喜欢的"/>
+                                    <tabBarItem systemItem="more" id="hf6-pU-v4a" userLabel="其它"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="lastView" destination="Mf2-lM-y2h" id="0HA-Ri-m4l"/>
+                        <outlet property="scrollView" destination="7s8-hs-mmI" id="S1M-mC-VIn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.5" y="111.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="finditem_ad" width="145" height="145"/>
+        <image name="finditem_hotpeople" width="145" height="145"/>
+        <image name="finditem_hotsound" width="145" height="145"/>
+        <image name="finditem_iwannabehere" width="300" height="75"/>
+        <image name="finditem_newpeople" width="145" height="145"/>
+        <image name="finditem_newsound" width="145" height="145"/>
+        <image name="finditem_wallspoint" width="145" height="145"/>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "用户名："; ObjectID = "ANi-OH-2Oa"; */
+"ANi-OH-2Oa.text" = "用户名：";
+
+/* Class = "UILabel"; text = "手机号码："; ObjectID = "Zro-IM-ADS"; */
+"Zro-IM-ADS.text" = "手机号码：";
+
+/* Class = "UILabel"; text = "密码："; ObjectID = "mtQ-M2-1sO"; */
+"mtQ-M2-1sO.text" = "密码：";
+
+/* Class = "UILabel"; text = "生日："; ObjectID = "trl-LT-bep"; */
+"trl-LT-bep.text" = "生日：";
+
+/* Class = "UILabel"; text = "邮箱："; ObjectID = "x1l-Pu-Vwm"; */
+"x1l-Pu-Vwm.text" = "邮箱：";

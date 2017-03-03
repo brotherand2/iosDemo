@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "D6Q-Dr-b4W"; */
+"D6Q-Dr-b4W.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "M7f-Sz-qcx"; */
+"M7f-Sz-qcx.placeholder" = "请输入账号";
+
+/* Class = "UILabel"; text = "QQ:"; ObjectID = "csx-Zd-2xw"; */
+"csx-Zd-2xw.text" = "QQ:";
+
+/* Class = "UILabel"; text = "密码："; ObjectID = "mQC-RR-iqL"; */
+"mQC-RR-iqL.text" = "密码：";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "qNt-Ls-cSj"; */
+"qNt-Ls-cSj.placeholder" = "请输入密码";

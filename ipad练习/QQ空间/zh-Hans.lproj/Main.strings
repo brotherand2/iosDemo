@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "7yH-oI-cZe"; */
+"7yH-oI-cZe.text" = "密码";
+
+/* Class = "UIButton"; normalTitle = "自动登录"; ObjectID = "G4e-vM-d7D"; */
+"G4e-vM-d7D.normalTitle" = "自动登录";
+
+/* Class = "UILabel"; text = "帐号"; ObjectID = "Gct-RK-j7S"; */
+"Gct-RK-j7S.text" = "帐号";
+
+/* Class = "UIButton"; normalTitle = "记住密码"; ObjectID = "Yqz-R4-tRK"; */
+"Yqz-R4-tRK.normalTitle" = "记住密码";
+
+/* Class = "UIButton"; normalTitle = "登 录"; ObjectID = "vYH-Wd-cFk"; */
+"vYH-Wd-cFk.normalTitle" = "登 录";

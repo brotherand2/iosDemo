@@ -1,0 +1,16 @@
+//
+//  define.pch
+//  多线程
+//
+//  Created by Apple on 16/2/19.
+//  Copyright © 2016年 Apple. All rights reserved.
+//
+
+#ifndef define_pch
+#define define_pch
+//#define IPAdd @"192.168.191.2"
+#define IPAdd @"127.0.0.1"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* define_pch */

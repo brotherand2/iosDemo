@@ -1,0 +1,9 @@
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "VwY-S7-kDG"; */
+"VwY-S7-kDG.title" = "返回";
+
+/* Class = "UIButton"; normalTitle = "跳转"; ObjectID = "u8p-u1-gzo"; */
+"u8p-u1-gzo.normalTitle" = "跳转";
+
+/* Class = "UINavigationItem"; title = "第2个控制器"; ObjectID = "ziK-uM-Efs"; */
+"ziK-uM-Efs.title" = "第2个控制器";

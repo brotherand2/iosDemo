@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u8Z-63-tRW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+         
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="P4G-Ax-hJg">
+            <objects>
+                <navigationController id="u8Z-63-tRW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dop-B1-lXF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qOZ-eE-ce1" kind="relationship" relationship="rootViewController" id="QpZ-E3-xIZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jws-c6-j35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-388" y="143"/>
+        </scene>
+        <!--Quartz2D演示-->
+        <scene sceneID="2od-OV-XNT">
+            <objects>
+                <viewController id="qOZ-eE-ce1" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rH5-1d-Zeq"/>
+                        <viewControllerLayoutGuide type="bottom" id="h1v-XH-h8z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2f6-SQ-kVk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Quartz2D演示" id="VvI-6m-18c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkD-8h-hYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346.5" y="130.5"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "跳转到第三个控制器"; ObjectID = "5u5-CU-Jx3"; */
+"5u5-CU-Jx3.normalTitle" = "跳转到第三个控制器";
+
+/* Class = "UINavigationItem"; title = "第一个控制器"; ObjectID = "6hQ-BZ-FNz"; */
+"6hQ-BZ-FNz.title" = "第一个控制器";
+
+/* Class = "UIBarButtonItem"; title = "返回上一个"; ObjectID = "8Lg-Xp-rWc"; */
+"8Lg-Xp-rWc.title" = "返回上一个";
+
+/* Class = "UIBarButtonItem"; title = "照相"; ObjectID = "FJo-1g-kRA"; */
+"FJo-1g-kRA.title" = "照相";
+
+/* Class = "UINavigationItem"; title = "第3个控制器"; ObjectID = "FmK-0e-NWn"; */
+"FmK-0e-NWn.title" = "第3个控制器";
+
+/* Class = "UIButton"; normalTitle = "返回上一个控制器"; ObjectID = "GIX-kt-ASK"; */
+"GIX-kt-ASK.normalTitle" = "返回上一个控制器";
+
+/* Class = "UISegmentedControl"; gHl-bm-9Vr.segmentTitles[0] = "第一"; ObjectID = "gHl-bm-9Vr"; */
+"gHl-bm-9Vr.segmentTitles[0]" = "第一";
+
+/* Class = "UISegmentedControl"; gHl-bm-9Vr.segmentTitles[1] = "第二"; ObjectID = "gHl-bm-9Vr"; */
+"gHl-bm-9Vr.segmentTitles[1]" = "第二";
+
+/* Class = "UIButton"; normalTitle = "跳转到第2个控制器"; ObjectID = "hcf-xv-INt"; */
+"hcf-xv-INt.normalTitle" = "跳转到第2个控制器";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "qz9-o3-1tN"; */
+"qz9-o3-1tN.title" = "返回";

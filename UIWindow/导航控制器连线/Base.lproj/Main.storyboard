@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lbT-mf-3J8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="gkK-ni-eFq">
+            <objects>
+                <navigationController id="lbT-mf-3J8" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J8S-UV-SWp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="F3f-BA-3tW" kind="relationship" relationship="rootViewController" id="hNz-Z6-O8Y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PT3-Zc-m2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-564.5" y="189.5"/>
+        </scene>
+        <!--第一个控制器-->
+        <scene sceneID="ZIN-eo-v7T">
+            <objects>
+                <viewController id="F3f-BA-3tW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DFa-tv-adm"/>
+                        <viewControllerLayoutGuide type="bottom" id="AdA-a7-FBo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yjg-2c-9ee">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcf-xv-INt">
+                                <rect key="frame" x="130" y="289" width="129" height="90"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.5" green="0.23385178377728127" blue="0.41837813673538055" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跳转到第2个控制器"/>
+                                <connections>
+                                    <segue destination="HDi-5K-5jK" kind="push" id="hYn-po-yM9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一个控制器" id="6hQ-BZ-FNz">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="qz9-o3-1tN"/>
+                        <barButtonItem key="leftBarButtonItem" title="照相" id="FJo-1g-kRA"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="CKd-UD-uFC"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAt-yR-Voq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75.5" y="199.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wXo-RE-wrs">
+            <objects>
+                <viewController id="HDi-5K-5jK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9eJ-Nc-FKq"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Ae-3j-FGM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kYL-tD-bsr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5u5-CU-Jx3">
+                                <rect key="frame" x="120" y="326" width="172" height="75"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="0.38299601509999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跳转到第三个控制器"/>
+                                <connections>
+                                    <segue destination="Z3Z-08-CVQ" kind="push" id="tA5-g8-Urg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.35373488330000002" green="0.34802774910000001" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XZO-iE-BR8">
+                        <barButtonItem key="backBarButtonItem" title="返回上一个" id="8Lg-Xp-rWc"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="gHl-bm-9Vr">
+                            <rect key="frame" x="126" y="7" width="124" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <segments>
+                                <segment title="第一"/>
+                                <segment title="第二"/>
+                            </segments>
+                        </segmentedControl>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYi-z9-7sq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="430.5" y="76.5"/>
+        </scene>
+        <!--第3个控制器-->
+        <scene sceneID="wdt-dz-l7a">
+            <objects>
+                <viewController id="Z3Z-08-CVQ" customClass="ZYHThreeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XZX-n6-lXo"/>
+                        <viewControllerLayoutGuide type="bottom" id="WIC-u7-dO6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KSn-1w-Rhn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIX-kt-ASK">
+                                <rect key="frame" x="127" y="311" width="120" height="76"/>
+                                <animations/>
+                                <state key="normal" title="返回上一个控制器"/>
+                                <connections>
+                                    <action selector="back:" destination="Z3Z-08-CVQ" eventType="touchUpInside" id="ywY-zG-tH2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.43288590599999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第3个控制器" id="FmK-0e-NWn"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVi-IO-gvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941.5" y="-5.5"/>
+        </scene>
+    </scenes>
+</document>

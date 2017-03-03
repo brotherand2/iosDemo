@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ks-M3-403" userLabel="图片滚动">
+                                <rect key="frame" x="10" y="20" width="300" height="150"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.79616715599999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="mgJ-O4-kSF"/>
+                                    <constraint firstAttribute="width" constant="300" id="pkz-wu-1qc"/>
+                                </constraints>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="CXL-9h-z3b">
+                                <rect key="frame" x="141" y="133" width="39" height="37"/>
+                                <animations/>
+                                <color key="pageIndicatorTintColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="okM-Z7-54D">
+                                <rect key="frame" x="10" y="207" width="300" height="180"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="WGa-of-vAA"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur fjaskdfjsakdjjskdjkfjaskldjfksjdkfjskldjfkjwijksdjfkjsdkfjksdjfksjdfkljsaldfjsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.orem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur fjaskdfjsakdjjskdjkfjaskldjfksjdkfjskldjfkjwijksdjfkjsdkfjksdjfksjdfkljsaldfjsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CXL-9h-z3b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8gd-mJ-Wgr"/>
+                            <constraint firstItem="okM-Z7-54D" firstAttribute="leading" secondItem="5ks-M3-403" secondAttribute="leading" id="Eaw-Pa-mbh"/>
+                            <constraint firstItem="5ks-M3-403" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="Qd0-nn-72x"/>
+                            <constraint firstItem="okM-Z7-54D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SWS-d0-7qW"/>
+                            <constraint firstItem="okM-Z7-54D" firstAttribute="top" secondItem="5ks-M3-403" secondAttribute="bottom" constant="37" id="aw9-0V-Zsk"/>
+                            <constraint firstItem="CXL-9h-z3b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="113" id="e0U-h5-44S"/>
+                            <constraint firstItem="5ks-M3-403" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="scQ-pz-TgK"/>
+                            <constraint firstItem="okM-Z7-54D" firstAttribute="trailing" secondItem="5ks-M3-403" secondAttribute="trailing" id="t8h-Xo-0q3"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageControl" destination="CXL-9h-z3b" id="Wam-fC-Jpu"/>
+                        <outlet property="scrollView" destination="5ks-M3-403" id="L9P-D5-V5G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221" y="191"/>
+        </scene>
+    </scenes>
+</document>

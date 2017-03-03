@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bmd-Jf-81s" customClass="ZYHFootView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crx-iW-MxI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.1372430788590604" blue="0.0" alpha="0.57303340517241375" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="加载更多数据"/>
+                    <connections>
+                        <action selector="loadMoreData:" destination="bmd-Jf-81s" eventType="touchUpInside" id="fd4-Oc-uLa"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="983-IN-lPM">
+                    <rect key="frame" x="50" y="9" width="274" height="41"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="正在拼命加载中..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBn-4V-syH">
+                            <rect key="frame" x="72" y="12" width="205" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Y51-q9-j4T">
+                            <rect key="frame" x="34" y="13" width="20" height="20"/>
+                            <animations/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Crx-iW-MxI" firstAttribute="top" secondItem="bmd-Jf-81s" secondAttribute="top" id="5B0-C0-4kS"/>
+                <constraint firstAttribute="trailing" secondItem="983-IN-lPM" secondAttribute="trailing" constant="51" id="6yM-se-ioA"/>
+                <constraint firstAttribute="trailing" secondItem="Crx-iW-MxI" secondAttribute="trailing" id="Be9-F2-Xhj"/>
+                <constraint firstAttribute="bottom" secondItem="Crx-iW-MxI" secondAttribute="bottom" id="DOQ-J7-WWP"/>
+                <constraint firstItem="Crx-iW-MxI" firstAttribute="leading" secondItem="bmd-Jf-81s" secondAttribute="leading" id="GKr-Yp-IDV"/>
+                <constraint firstAttribute="bottom" secondItem="983-IN-lPM" secondAttribute="bottom" constant="10" id="KXM-bM-96w"/>
+                <constraint firstItem="983-IN-lPM" firstAttribute="top" secondItem="bmd-Jf-81s" secondAttribute="top" constant="9" id="T4F-1F-58v"/>
+                <constraint firstItem="983-IN-lPM" firstAttribute="leading" secondItem="bmd-Jf-81s" secondAttribute="leading" constant="50" id="UQq-5H-CxR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loadingView" destination="983-IN-lPM" id="CDK-LF-Ee1"/>
+            </connections>
+            <point key="canvasLocation" x="203.5" y="-38"/>
+        </view>
+    </objects>
+</document>

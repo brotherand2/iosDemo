@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ErU-e2-R8g">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Lv8-J7-DNn">
+            <objects>
+                <navigationController id="ErU-e2-R8g" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fqS-Ao-0EJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="j8d-TD-3Z8" kind="relationship" relationship="rootViewController" id="J5Q-fa-fvr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vR8-Yc-dbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-927.5" y="31.5"/>
+        </scene>
+        <!--手势密码-->
+        <scene sceneID="QOI-Zv-r3O">
+            <objects>
+                <viewController id="j8d-TD-3Z8" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1zD-iG-FwB"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z68-du-53X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J12-bJ-zXt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwa-E2-prt" userLabel="设置">
+                                <rect key="frame" x="143" y="281" width="90" height="45"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="5Ul-uG-YUQ"/>
+                                    <constraint firstAttribute="width" constant="90" id="7ry-0Z-fCv"/>
+                                </constraints>
+                                <state key="normal" title="设置手势密码"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" identifier="gesturePwd" id="O4I-ce-14G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxK-Sz-sja" userLabel="清除">
+                                <rect key="frame" x="143" y="351" width="90" height="45"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.87943912349999998" blue="0.41448382179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="清除手势密码"/>
+                                <connections>
+                                    <action selector="clearPwd:" destination="j8d-TD-3Z8" eventType="touchUpInside" id="90O-ks-V4L"/>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="Evn-rB-eeM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="0.38299601509999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SxK-Sz-sja" firstAttribute="centerX" secondItem="J12-bJ-zXt" secondAttribute="centerX" id="BEi-tk-k6k"/>
+                            <constraint firstItem="vwa-E2-prt" firstAttribute="centerY" secondItem="J12-bJ-zXt" secondAttribute="centerY" constant="-30" id="BaB-Gv-Vqc"/>
+                            <constraint firstItem="SxK-Sz-sja" firstAttribute="width" secondItem="vwa-E2-prt" secondAttribute="width" id="FQt-q7-BmW"/>
+                            <constraint firstItem="SxK-Sz-sja" firstAttribute="height" secondItem="vwa-E2-prt" secondAttribute="height" id="IIe-dc-rXZ"/>
+                            <constraint firstItem="vwa-E2-prt" firstAttribute="centerX" secondItem="J12-bJ-zXt" secondAttribute="centerX" id="Od3-qe-Z5j"/>
+                            <constraint firstItem="SxK-Sz-sja" firstAttribute="centerY" secondItem="J12-bJ-zXt" secondAttribute="centerY" constant="40" id="rSC-In-Zqn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="手势密码" id="CG6-BB-qaD">
+                        <barButtonItem key="backBarButtonItem" title="返回主页" id="KTs-RH-N2g"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="RNz-kz-fF3">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jPu-Gj-5hG">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="clear:" destination="j8d-TD-3Z8" eventType="touchUpInside" id="RcC-TE-tt1"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="clearPwdBtn" destination="SxK-Sz-sja" id="oYM-n4-vZU"/>
+                        <outlet property="setPwnBtn" destination="vwa-E2-prt" id="6q5-Qo-k1g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PpK-fT-rES" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426.5" y="20.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PhV-x4-gS5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11.5" y="31.5"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="O4I-ce-14G"/>
+    </inferredMetricsTieBreakers>
+</document>

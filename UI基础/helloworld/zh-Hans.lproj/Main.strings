@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "用户名："; ObjectID = "caE-wd-zfS"; */
+"caE-wd-zfS.text" = "用户名：";
+
+/* Class = "UIButton"; normalTitle = "按我"; ObjectID = "g8U-Rk-Hsz"; */
+"g8U-Rk-Hsz.normalTitle" = "按我";
+
+/* Class = "UILabel"; text = "HELLO WORLD"; ObjectID = "siv-6E-UTx"; */
+"siv-6E-UTx.text" = "HELLO WORLD";

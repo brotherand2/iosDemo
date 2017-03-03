@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ZVS-R9-QSP"; */
+"ZVS-R9-QSP.text" = "0";
+
+/* Class = "UILabel"; text = "玩家："; ObjectID = "aJR-5t-k64"; */
+"aJR-5t-k64.text" = "玩家：";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eIO-hz-sC8"; */
+"eIO-hz-sC8.text" = "0";
+
+/* Class = "UILabel"; text = "电脑："; ObjectID = "njC-MA-DXQ"; */
+"njC-MA-DXQ.text" = "电脑：";

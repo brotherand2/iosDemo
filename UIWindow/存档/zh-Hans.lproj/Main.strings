@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "数组存"; ObjectID = "12X-nx-00E"; */
+"12X-nx-00E.normalTitle" = "数组存";
+
+/* Class = "UIButton"; normalTitle = "自定义归档存"; ObjectID = "MO8-hX-F30"; */
+"MO8-hX-F30.normalTitle" = "自定义归档存";
+
+/* Class = "UIButton"; normalTitle = "偏好设置存"; ObjectID = "SKZ-Jw-S76"; */
+"SKZ-Jw-S76.normalTitle" = "偏好设置存";
+
+/* Class = "UIButton"; normalTitle = "数组取"; ObjectID = "YuD-o2-3UR"; */
+"YuD-o2-3UR.normalTitle" = "数组取";
+
+/* Class = "UIButton"; normalTitle = "偏好设置取"; ObjectID = "cPb-ak-Jjh"; */
+"cPb-ak-Jjh.normalTitle" = "偏好设置取";
+
+/* Class = "UIButton"; normalTitle = "自定义归档取"; ObjectID = "eEJ-xH-wcl"; */
+"eEJ-xH-wcl.normalTitle" = "自定义归档取";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "z7n-J1-wCf"; */
+"z7n-J1-wCf.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";

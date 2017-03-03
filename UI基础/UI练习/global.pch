@@ -1,0 +1,15 @@
+//
+//  global.pch
+//  helloworld
+//
+//  Created by Apple on 16/2/1.
+//  Copyright © 2016年 Apple. All rights reserved.
+//
+
+#ifndef global_pch
+#define global_pch
+#import "Masonry.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* global_pch */

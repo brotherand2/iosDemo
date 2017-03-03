@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; badgeValue = "10"; ObjectID = "Bhb-q6-Zz4"; */
+"Bhb-q6-Zz4.badgeValue" = "10";
+
+/* Class = "UITabBarItem"; title = "联系人"; ObjectID = "Bhb-q6-Zz4"; */
+"Bhb-q6-Zz4.title" = "联系人";
+
+/* Class = "UITabBarItem"; title = "动态"; ObjectID = "kdR-R0-epN"; */
+"kdR-R0-epN.title" = "动态";
+
+/* Class = "UITabBarItem"; title = "设置"; ObjectID = "ofF-Xa-jja"; */
+"ofF-Xa-jja.title" = "设置";

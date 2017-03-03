@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VPW-Xq-93q" userLabel="内容视图">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybX-Es-V2i">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="64"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.43288590599999999" blue="0.3339974832" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="one"/>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hiz-gq-WY4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xw-Fm-Q1M">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="64"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="two"/>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Hf-qh-x6v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moL-W9-jZT">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="64"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.70871400080000002" green="0.38602083609999999" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="three"/>
+                                        <connections>
+                                            <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AwE-P2-z9z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="9Xw-Fm-Q1M" firstAttribute="leading" secondItem="ybX-Es-V2i" secondAttribute="trailing" id="1UI-6u-3Ov"/>
+                                    <constraint firstItem="moL-W9-jZT" firstAttribute="leading" secondItem="9Xw-Fm-Q1M" secondAttribute="trailing" id="A3m-us-5a9"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Xw-Fm-Q1M" secondAttribute="bottom" id="Csf-Hz-F1V"/>
+                                    <constraint firstAttribute="height" constant="64" id="D2Q-P9-MSd"/>
+                                    <constraint firstAttribute="trailing" secondItem="moL-W9-jZT" secondAttribute="trailing" id="F2q-6Z-Gfn"/>
+                                    <constraint firstItem="9Xw-Fm-Q1M" firstAttribute="width" secondItem="ybX-Es-V2i" secondAttribute="width" id="Loe-eN-uKZ"/>
+                                    <constraint firstItem="ybX-Es-V2i" firstAttribute="height" secondItem="VPW-Xq-93q" secondAttribute="height" id="PeR-fe-AKh"/>
+                                    <constraint firstItem="ybX-Es-V2i" firstAttribute="top" secondItem="VPW-Xq-93q" secondAttribute="top" id="Wrd-T7-afv"/>
+                                    <constraint firstItem="moL-W9-jZT" firstAttribute="width" secondItem="ybX-Es-V2i" secondAttribute="width" id="YPD-sy-tYQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ybX-Es-V2i" secondAttribute="bottom" id="hiZ-cz-2C0"/>
+                                    <constraint firstAttribute="bottom" secondItem="moL-W9-jZT" secondAttribute="bottom" id="kAs-WC-52J"/>
+                                    <constraint firstItem="9Xw-Fm-Q1M" firstAttribute="top" secondItem="VPW-Xq-93q" secondAttribute="top" id="pSj-WH-VTV"/>
+                                    <constraint firstItem="moL-W9-jZT" firstAttribute="top" secondItem="VPW-Xq-93q" secondAttribute="top" id="rP9-bv-mEC"/>
+                                    <constraint firstItem="ybX-Es-V2i" firstAttribute="leading" secondItem="VPW-Xq-93q" secondAttribute="leading" id="tBi-Oc-GtC"/>
+                                    <constraint firstItem="9Xw-Fm-Q1M" firstAttribute="height" secondItem="VPW-Xq-93q" secondAttribute="height" id="tDf-S5-M7A"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VPW-Xq-93q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dGF-Re-FAc"/>
+                            <constraint firstAttribute="trailing" secondItem="VPW-Xq-93q" secondAttribute="trailing" id="itY-2d-CNJ"/>
+                            <constraint firstItem="VPW-Xq-93q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nAe-S1-JJ5"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
